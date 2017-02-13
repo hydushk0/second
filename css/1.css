@@ -1,0 +1,332 @@
+* p{
+	color: #aaa;
+	font-size: 10px;
+}
+/*#############header######################*/
+.header{
+	margin-top: 15px;
+}
+.header_toolbar{
+	background: url(../png/0_1.png) center  no-repeat;
+	height: 70px;
+}
+.header_toolbar:hover .nav{
+	display: block;
+}
+.nav{
+	width: 80px;
+	margin-top: 60px;
+	margin-left: 110px;
+	position: absolute;
+	display: none;
+}
+
+.nav ul li{
+	background-color: #0af;
+	border: 1px solid black;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+}
+.nav ul li a{
+	text-decoration: none;
+}
+.header_logo{
+	margin-top: 15px;
+}
+.header_logo h1{
+	color: blue;
+	font-size: 30px;
+	font-weight: bold;
+}
+.header_logo p{
+	color: #aaa;
+}
+.header_logo > p, .header_logo > h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header_search_img{
+	background: url(../png/0_6.png) center no-repeat;
+	height: 70px;
+}
+.search_buttonOut{
+	display: none;
+	background: -webkit-linear-gradient(#D3D3D3, #CACACA 50%, #A9A9A9 50%, #9b9b9b);
+	border-radius: 5px;
+	padding: 5px;
+}
+.header_search_img:hover .search_buttonOut{
+	display: inline-block;
+	position: fixed;
+}
+
+.search_buttonOut input{
+	width: 0px;
+	height: 32px;
+	line-height: 32px;
+	font: 13px Helvetica, Arial, sans-serif;
+	color: #6E7074;
+	text-shadow: 0 1px 0 #fff;
+	-webkit-transition: all .2s ease-out;
+	padding: 0 30px 0 6px;
+
+}	
+.search_buttonOut input:focus{
+	width: 200px;
+	box-shadow: inset 0 1px 1px #46575b, 0 1px 0 #fff;
+	color: #25464d;
+}
+
+/*#######################face########################*/
+
+.face{
+	margin-top: 150px;
+}
+.face_text{
+	top: -50px;
+	position: relative;
+
+}
+.face_text > p, .face_text > h1, .face_text div h2{
+	text-align: center;
+}
+.face_text h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+.face_text p{
+	margin-top: 20px;
+}
+.face_text div{
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: #fff;
+	width: 120px;
+	height: 20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.face_text div h2{
+	overflow: hidden;
+	text-transform: uppercase;
+	color: blue;
+	font-weight: bold;
+	font-size: 7px;
+	line-height: 20px;
+}
+
+.face_image{
+	background: url(../png/hourse.png);
+	background-size: cover;
+	background-position: center bottom;
+	height: 450px;
+}
+
+
+
+/*#########################columns####################*/
+.columns_slogan > p, .columns_slogan > h1{
+	text-align: center;
+}
+
+.columns_slogan h1{
+	margin-top: 10px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.columns_itself{
+	overflow:hidden;
+	width: 800px;
+	margin: 50px auto 0px auto;
+}
+.columns_itself_1, .columns_itself_2, .columns_itself_3, .columns_itself_4{
+	height: 160px;
+	text-align: center;
+
+}
+.columns_itself_1 > h4, .columns_itself_2 > h4, .columns_itself_3 > h4, .columns_itself_4 > h4{
+	font-size: 10px;
+	margin-bottom: 20px;
+	font-weight: bold
+}
+.columns_itself_1 p, .columns_itself_2 p, .columns_itself_3 p, .columns_itself_4 p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.columns_itself_img1{
+	background: url(../png/0_2.png) center top no-repeat;
+}
+.columns_itself_img2{
+	background: url(../png/0_3.png) center top no-repeat;
+}
+.columns_itself_img3{
+	background: url(../png/0_4.png) center top no-repeat;
+}
+.columns_itself_img4{
+	background: url(../png/0_5.png) center top no-repeat;
+}
+.columns_itself_img1, .columns_itself_img2, .columns_itself_img3, .columns_itself_img4{
+	background-size: 30px 30px;
+	height: 50px;	
+}
+.columns_button h1{
+	margin-top: 20px;
+	text-transform: uppercase;
+	color: blue;
+	text-align: center;
+	font-weight: bold;
+	font-size: 8px;
+
+}
+.collage{
+	margin-top: 75px;
+	background-color: #eee;
+	height: 540px;
+}
+.collage_1stline_image{
+	background: url(../png/1.png) top no-repeat;
+	background-size: cover;
+	height: 270px;
+}
+.collage_2ndline_image{
+	background: url(../png/2.png) top no-repeat;
+	background-size: cover;
+	height: 270px;
+	margin-right: 0px;
+}
+.collage_1stline_text{
+	margin-left: 50px;
+	margin-top: 100px;
+}
+.collage_2ndline_text{
+	margin-left: 120px;
+	margin-top: 70px;
+}
+.collage_1stline_text h1, .collage_2ndline_text h1{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-weight: bold
+}
+.collage_1stline_text p, .collage_2ndline_text p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.collage_3rdline_image_png{
+	background: url(../png/4.png) center no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 400px;
+	top: -55px;
+	position: relative;
+}
+.collage_3rdline_text h1{
+	font-size: 25px;
+	color: blue;
+	font-weight: bold;
+	margin-top: 200px;
+}
+.collage_3rdline_text p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*########################advice###################*/
+
+.advice_1stline_text{
+	margin-top: 100px;
+	padding-left: 170px;
+}
+.advice_1stline_text h1{
+	font-size: 25px;
+	font-weight: bold;
+	color: blue;
+	margin-bottom: 20px;
+}
+.advice_1stline_text p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.advice_1stline_image_png{
+	background: url(../png/3.png) center no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+.advice_2ndline{
+	background: #eee;
+}
+.advice_2ndline_image_png{
+	background: url(../png/7.png) center no-repeat;
+	background-size: 350px 350px;
+	height: 350px;
+	position: relative;
+	bottom: -30px;
+	right: -80px;	
+}
+.advice_2ndline_man_png{
+	background: url(../png/6.png) no-repeat;
+	background-size: 220px 275px;
+	height: 350px;
+	background-position: 185px 90px;
+}
+.advice_2ndline_man_text{
+	margin-left: 70px;
+}
+.advice_2ndline_man_text h3{
+	padding-top: 100px;
+	font-size: 25px;
+	margin-bottom: 20px;
+	color: red;
+	font-weight: bold;
+}
+.advice_2ndline_man_text p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.advice_2ndline_man_text h5{
+	margin-top: 50px;
+	font-weight: bold;
+	font-size: 10px;
+}
+/*##################footer##################*/
+.footer_text{
+	text-align: center;
+	margin-top: 50px;
+}
+.footer_text h2{
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.footer_text h1{
+	margin-top: 60px;
+	text-transform: uppercase;
+	color: blue;
+	font-weight: bold;
+	font-size: 8px;
+}
+.footer_end{
+	margin-top: 40px;
+	background: url(../png/5.png) center no-repeat;
+	background-size: cover;
+	height: 500px;
+	overflow: hidden;
+}
+#nav_buttonBack{
+	border-radius: 10px;
+	position: fixed;
+	right: 50px;
+	bottom: 20px;
+	width: 50px;
+	height: 30px;
+	background-color: blue;
+}
+#nav_buttonBack p{
+ 	text-align: center;
+}
+#nav_buttonBack p a{
+	font-size: 25px;
+}
